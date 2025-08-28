@@ -14,6 +14,73 @@ h1 {
 }
 
 /* Container do formulário */
-
-
+.formulario {
+    background-color: white;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px black;
+}
+label {
+    color: #333;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #a1a1a1;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+    box-sizing: border-box;
+}
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #667eea;
+    background-color: #f8f9ff;
+}
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+    cursor: pointer;
+}
+textarea {
+    resize: vertical;
+}
+button {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: all 0.3s;
+}
+.btn-enviar {
+    background-color: #667eea;
+    color: white;
+}
+.btn-enviar:hover {
+    background-color: #5064b9;
+    color: white;
+    transform: translateY(-2px);
+}
+.btn-limpar {
+    background-color: red;
+    color: white;
+}
+.btn-limpar:hover {
+    background-color: rgb(212, 1, 1);
+    color: white;
+    transform: translateY(-2px);
+}
 /* Continuar digitação (Aqui) */

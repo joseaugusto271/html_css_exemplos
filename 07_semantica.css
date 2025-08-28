@@ -6,5 +6,73 @@
     box-sizing: border-box; /* Inclui padding e border no tamanho */
 }
 
-
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.cabecalho-principal {
+    background: linear-gradient(90deg, #304254, #3498db);
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+}
+.cabecalho-principal h1 {
+    margin-bottom: 12px;
+}
+.menu-principal ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: center;
+}
+.menu-principal a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+.menu-principal a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    /* color: rgba(255, 255, 255, 0.2); */
+}
+.cabecalho-principal {
+    flex: 3;
+    padding: 20px;
+}
+.barra-lateral {
+    flex: 1;
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    height: fit-content;
+}
+.secao-destaque,
+.artigo-blog,
+.secao-servicos {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.artigo-blog header {
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    padding-bottom: 15px;
+}
+time {
+    color: #7f8c8d;
+    font-style: italic;
+}
+.rodape-principal {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+}
 /* Continuar digitação (Aqui)  */

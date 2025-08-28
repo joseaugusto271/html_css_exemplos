@@ -14,8 +14,54 @@ h1 {
 h2 {
     color: #34495e;
     margin-top: 30px;
+    text-align: center;
 }
 
 /* === Estilo base para todas as tabelas === */
+table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    box-shadow: 0 1px 5px;
+}
+.tabela-produtos {
+    border: 2px solid #3498db;
+}
+.tabela-produtos thead {
+    background-color: #3498db;
+    color: white;
+}
+.tabela-produtos th, 
+.tabela-produtos td {
+    padding: 12px; 
+    border-bottom: 1px solid #ecf0f1;
+}
+.tabela-produtos tbody tr:nth-child(odd) {
+    background-color: #b0b0b0;
+}
+.tabela-produtos tbody tr:hover {
+    background-color: #f9f8fa;
+    cursor: pointer;
+}
 
+.tabela-vendas {
+    border: 2px solid #27ae60;
+}
+.tabela-vendas th {
+    padding: 12px;
+    background-color: #27ae60;
+    color: white;
+    font-size: 18px;
+}
+.valor {
+    text-align: right;
+    font-weight: bold;
+    color: #2c3e50;
+}
+.total {
+    background-color: #f1c40f;
+    font-weight: bold;
+}
 /* Continuar digitação (Aqui) */
